@@ -24,3 +24,7 @@ def swap_elements(arr)
   return arr2
 
 end
+
+def reverse_array(arr)
+  arr.reverse
+end
