@@ -49,12 +49,11 @@ def find_a(arr)
 end
 
 def add_s(arr)
-str = arr[1]
 
 arr.map do |x|
   x << "s"
 end
-
+str = arr[1]
 str[-1] = ""
 
 arr[1] << str
