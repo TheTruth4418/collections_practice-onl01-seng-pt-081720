@@ -57,5 +57,5 @@ arr.map do |x|
 end
 
 str[-1] = ""
-return str
+arr[1] << str
 end
