@@ -40,3 +40,9 @@ end
 def sum_array(arr)
   arr.sum
 end
+
+def find_a(arr)
+  arr.select do |x|
+    x[0]=="a"
+  end
+end
