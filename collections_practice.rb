@@ -53,8 +53,9 @@ def add_s(arr)
 arr.map do |x|
   x << "s"
 end
+
 str = arr[1]
-str[-1] = ""
+str[-1] = " "
 
 arr[1] << str
 
