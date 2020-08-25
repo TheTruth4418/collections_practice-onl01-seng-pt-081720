@@ -31,7 +31,7 @@ end
 
 def kesha_maker(arr)
 
-  arr.map do |x|
+  arr.each do |x|
     x[2] = "$"
   end
 
