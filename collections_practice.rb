@@ -49,14 +49,14 @@ end
 
 def add_s(arr)
   index = 0
-  
+
   arr.map do |x|
     if index == 1
       arr[1] = arr[1]
-    else 
+    else
       x << "s"
     end
   end
-    
-  
+
+
 end
