@@ -46,3 +46,7 @@ def find_a(arr)
     x[0]=="a"
   end
 end
+
+def add_s(arr)
+  arr.map {|x| x << "s"}
+end
