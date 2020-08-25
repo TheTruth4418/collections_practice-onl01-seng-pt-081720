@@ -6,8 +6,8 @@ def sort_array_desc(arr)
   arr.reverse
 end
 
-def sort_array_asc(arr)
+def sort_array_char_count(arr)
   arr.sort do |a,b|
-    a.length <=> b.legnth
+    a.length <=> b.length
   end
 end
