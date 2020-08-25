@@ -22,5 +22,5 @@ def swap_elements(arr)
   arr2 << arr[1]
 
   return arr2
-  
+
 end
