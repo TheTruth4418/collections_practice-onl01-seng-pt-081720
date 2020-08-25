@@ -50,13 +50,8 @@ end
 def add_s(arr)
   index = 0
 
-  while index < array.length do |x|
-    if index == 1
-      arr[1] = arr[1]
-    else
-      x << "s"
-    end
-  end
-
+arr.map do |x|
+  x << "s"
+end
 
 end
