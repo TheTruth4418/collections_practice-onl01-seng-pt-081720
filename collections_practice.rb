@@ -50,7 +50,7 @@ end
 def add_s(arr)
   index = 0
 
-  arr.map do |x|
+  while index < array.length do |x|
     if index == 1
       arr[1] = arr[1]
     else
