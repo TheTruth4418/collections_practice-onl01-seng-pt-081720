@@ -1,3 +1,4 @@
+
 def sort_array_asc(arr)
   arr.sort
 end
@@ -48,10 +49,11 @@ def find_a(arr)
 end
 
 def add_s(arr)
-  index = 0
+str = arr[1]
 
 arr.map do |x|
   x << "s"
 end
 
+return str
 end
