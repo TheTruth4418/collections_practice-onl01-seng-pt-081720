@@ -59,5 +59,5 @@ str[-1] = ""
 
 arr[1] << str
 
-return arr
+return str
 end
