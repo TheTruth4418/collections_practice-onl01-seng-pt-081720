@@ -59,5 +59,5 @@ str = arr[1]
 str[-1] = ""
 arr[1] == str
 
-return str
+return arr 
 end
