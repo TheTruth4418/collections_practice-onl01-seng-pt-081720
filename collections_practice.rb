@@ -50,10 +50,12 @@ end
 
 def add_s(arr)
 str = arr[1]
+arr2 = []
 
 arr.map do |x|
   x << "s"
 end
 
+str[-1] = ""
 return str
 end
