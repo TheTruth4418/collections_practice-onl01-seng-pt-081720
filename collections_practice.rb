@@ -55,9 +55,9 @@ arr.map do |x|
 end
 
 str = arr[1]
-str[-1] = " "
 
-arr[1] << str
+
+arr[1] == str
 
 return str
 end
